@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Vertical Sections</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+        }
+        .section img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="section">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="section">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+    </div>
+</body>
+</html>
